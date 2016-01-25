@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="123123123.js"></script>
+</head>
+<style type="text/css">
+	*{
+    	margin: 0px;
+    	padding: 0px;
+    	list-style: none;
+	}
+	a{
+		text-decoration: none;
+		color: white;
+	}
+	#tab-container{
+		width: 100px;
+		height: 100px;
+		margin:100px 100px;
+	}
+	.tab-a{
+		background-color: red;
+		display: block;
+		text-align: center;
+		border-bottom: 1px solid white;
+	}
+	.tab-a .bb{
+		background-color: black;
+		display: block;
+		text-align: center;
+		border-bottom: 1px solid white;
+	}
+	ul{
+		text-align: center;
+	}
+	.tab-ul{
+		display: none;
+		background-color: #CD8A8A;
+	}
+</style>
+<body>
+	<ul id="tab-container">
+		<li class="tab-li">
+		 	<a href="#" class="tab-a">菜单一</a>
+			<ul class="tab-ul">
+				<li>菜单1</li>
+				<li>菜单2</li>
+				<li>菜单3</li>
+			</ul>
+		</li>
+		<li class="tab-li">
+			<a href="#" class="tab-a">菜单二</a>
+			<ul class="tab-ul">
+				<li>菜单1</li>
+				<li>菜单2</li>
+				<li>菜单3</li>
+			</ul>
+		</li>
+		<li class="tab-li">
+			<a href="#" class="tab-a">菜单三</a>
+			<ul class="tab-ul">
+				<li>菜单1</li>
+				<li>菜单2</li>
+				<li>菜单3</li>
+			</ul>
+		</li>
+	</ul>
+</body>
+</html>
